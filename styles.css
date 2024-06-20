@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.notifications {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.header h2 {
+    margin: 0;
+}
+
+.header .count {
+    background: #007bff;
+    color: #fff;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 14px;
+}
+
+.header .mark-all-read {
+    background: none;
+    border: none;
+    color: rgb(79, 60, 223);
+    cursor: pointer;
+    font-size: 14px;
+    
+}
+
+.notification {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eaeaea;
+    margin-bottom: 5px;
+}
+
+.notification:last-child {
+    border-bottom: none;
+}
+
+.notification img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.notification .details {
+    flex: 1;
+}
+
+.notification .details p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.notification .details .time {
+    font-size: 12px;
+    color: #999;
+}
+
+.notification .details .message {
+    background: #fff;
+    border: 1px solid #323233;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: px;
+    font-size: 14px;
+}
+
+.unread{
+    background-color: #ede6e8;
+    border-radius: 10px;
+}
+
+.reddot{
+    color: red;
+}
+
+.details p :hover{
+    color: #217fe2;
+    cursor: pointer;
+}
+
+.action :hover{
+    color: #1674d8;
+}
+
+.notification .msg .message :hover{
+    background: #999;
+}
